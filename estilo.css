@@ -35,10 +35,20 @@ h2
 	font-size: 24px;
 }
 
+#verdade > h2
+{
+	text-transform: capitalize;
+}
+
 p
 {
 	font-family: 'Arial';
 	font-size: 14px;	
+}
+
+.referencia
+{
+	font-style: italic;
 }
 
 #hoje
@@ -48,8 +58,11 @@ p
 	border: 1px solid #ff56fb;
 	width: 405px;
 	box-sizing: border-box;
-	padding-right: 25px;
+	padding-right: 35px;
+	padding-left: 35px;
+	padding-top: 20px;
 	padding-bottom: 30px;
+	margin-right: 25px;
 	text-align: center;
 }
 
@@ -59,10 +72,6 @@ p
 	width: 112px;
 }
 
-#hoje > h2
-{
-	padding-top: 20px;
-}
 
 #hoje > p
 {
@@ -78,17 +87,28 @@ p
 #musica
 {
 	clear: left;
+}
+
+#musica > p, h2
+{
 	padding-left: 12px;
+}
+
+#musica > p:nth-child(2n)
+{
+	padding-left: 46px;
 }
 
 .destacado
 {
+	padding-left: 12px;
 	padding-top: 2px;
+	padding-bottom: 2px;
 	background-color: #c4caf3;
 	color: #004a79;
 }
 
-p:nth-child(2n)
+.destacado > p:nth-child(2n)
 {
-	padding-left: 20px;
+	padding-left: 46px;
 }
